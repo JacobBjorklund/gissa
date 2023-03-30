@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    flex-direction: column;
+    gap: 1rem;
+    background-color: rgba(0, 0, 0, 0.699);
+    color: white;
+}
+
+input,
+button {
+    padding: 0.65rem;
+    border-radius: 5px;
+}
+
+button {
+    border: none;
+    background-color: limegreen;
+}
